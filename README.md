@@ -8,7 +8,7 @@ For this script to actually work, your working directory must contain both: the 
 
 Step by step, this R Script does the following:
 
-1. The script will read all the data from the raw files, and it will then convert them into proper data types, specifically it will: Create data types from the "subjects (Id's)", create data types from "activity labels, create data types from the "features".
+1. The script will read all the data from the raw files, and it will then convert them into proper data types, specifically it will: Create data types from the "subjects (Id's)", create data types from the "activity labels"" and create data types from the "features".
         
 2. The script will merge the datasets into a more comprehensive object that integrates the subjects with the appropriate labels, activity names, and relevant measurements recorded.
 
