@@ -6,11 +6,9 @@ The script contained within this repo is used for transforming a very specific R
 
 For this script to actually work, your working directory must contain both: the run_analysis.R script and the uncompressed raw data folder "UCI HAR Dataset" that was provided through Coursera for this particular Course Project; furthermore, you will need to manually assign the working directory in which you have those files through the setwd() function when you run it in R.Studio.
 
-Specifically, this R Script does the following:
-1. The script will read all the data from the raw files, and it will then convert them into proper data types, specifically it will
-        - Create data types from "subjects (Id's)"
-        - Create data types from "activity labels
-        - Create data types from the "features"
+Step by step, this R Script does the following:
+
+1. The script will read all the data from the raw files, and it will then convert them into proper data types, specifically it will: Create data types from the "subjects (Id's)", create data types from "activity labels, create data types from the "features".
         
 2. The script will merge the datasets into a more comprehensive object that integrates the subjects with the appropriate labels, activity names, and relevant measurements recorded.
 
