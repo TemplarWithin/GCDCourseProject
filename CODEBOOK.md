@@ -4,9 +4,10 @@ run_analysis.r dataset's Codebook
 The following Codebook contains a general description of the variables stored within both of the datasets created by the run_analysis.r script contained within this repo, both of which are subsets of a broader database that can be found by either, downloading it from this repo ('UCI HAR Dataset') or by accessing the following hyperlink: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-As explained in the raw dataset's documentation, the original dataset contains observations from experiments that have been carried out with a group of 30 volunteers within an age bracket of 19-48 years, all of which performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist.
+As explained in the raw dataset's documentation, the original dataset contains observations from experiments  carried out with a group of 30 volunteers within an age bracket of 19-48 years, all of which performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II) on the waist.
 
-Through these activities, and using the smartphones embedded accelerometer and gyroscope, the experiments captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz, but it is important to note that the experiments had also been video-recorded, so to label the data manually later. The obtained dataset was then randomly partitioned into two sets, where 70% of the volunteers were selected for generating training data and the other 30% were segregated for constructing the test data, with both features being normalized and bounded within [-1,1].
+Through these activities, and using the smartphone embedded accelerometer and gyroscope, the experiments captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. Furthermore the experiments were also video-recorded, so as to label the data manually later. The integrated dataset's were then randomly partitioned into two sets, where 70% of the volunteers were selected for generating "training data"" and the other 30% were segregated for constructing the "test data", with both databases being normalized and bounded within [-1,1].
+
 With all of that past us, it is important to observe that the subsetted data stands as a cleaned up version of the raw data described before in such a way that:
 
 Dataset 1: 
@@ -96,7 +97,7 @@ Each row of this dataset represents a different observation of a particular acti
 
 Dataset 2: 
 --------------
-On the other hand the dataset #2 has been further filtered down such that it only contains the average of each variable for each activity and for each individual subject,, such that rows correspond uniquely to a particular activity done by a particular subject, while columns correspond to the subject's identification number, the activity being performed by the subject during the data acquisition, and the rest of columns corresponding to the mean (of the means) of all similar experiments performed by that same subject. In order, the columns or variables contained within the second dataset are found as follows:
+On the other hand the dataset #2 has been further filtered down such that it only contains the average of each variable, for each activity and for each individual subject, such that rows correspond uniquely to a particular activity done by a particular subject, while columns correspond to the subject's identification number, the activity being performed by the subject during the data acquisition, and the rest of the columns correspond to the mean (of the means) of all similar experiments performed by that same subject. In order, the columns or variables contained within the second dataset will be found as follows:
 
 - [1] "subject"
 - [2] "activity"
