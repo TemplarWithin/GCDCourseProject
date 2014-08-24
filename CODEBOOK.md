@@ -2,7 +2,7 @@ run_analysis.r dataset's Codebook
 ================
 ## General & Specific Information Related To Dataset's 1 & 2
 The following Codebook contains a general description of the variables stored within both of the datasets created by the run_analysis.r script contained within this repo, both of which are subsets of a broader database that can be found by either, downloading it from this repo ('UCI HAR Dataset') or by accessing the following hyperlink: 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+([https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip])
 
 As explained in the raw dataset's documentation, the original dataset contains observations from experiments  carried out with a group of 30 volunteers within an age bracket of 19-48 years, all of which performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a smartphone (Samsung Galaxy S II) on the waist.
 

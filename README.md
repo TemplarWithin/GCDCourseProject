@@ -5,7 +5,7 @@ Summary of the run_analysis.R script contained within this repo
 The script contained within this repo is used for transforming a very specific RAW dataset into an infinitely more useful "Tidy Data Set" through the use of several R functions. Such dataset was provided through the Coursera course: "Getting and Cleaning Data", and because of that i took the liberty of transcribing the goals and objectives of such assignment further down.
 
 For this script to actually work, your working directory must contain both: the run_analysis.R script contained within this repo, and the uncompressed raw data folder "UCI HAR Dataset", which you can acquire either through these repo, through the Coursera course from which this particular Course Project was assigned, or through the following hyperlink: 
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+([https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip])
 
 Furthermore, you will need to manually assign the working directory in which you have stored those files through the setwd() function when you run it in R.Studio.
 
@@ -15,17 +15,17 @@ Step by step, this R Script does the following:
         
 2. The script will then merge the datasets into a more comprehensive object that integrates the subjects with the appropriate labels, activity names, and relevant measurements recorded.
 
-*Note for the Peer Assessment's: Steps 1 & 2 jointly cover project requirements 1,3 & 4*
+  **Note for the Peer Assessment's: Steps 1 & 2 jointly cover project requirements 1,3 & 4**
         
 3. The script will then subset the columns that contain the specific information that the assignment requires; heavily reducing the computer load required to execute further analysis on it.
         
-*Note for the Peer Assessment's: Step 3 covers the second project requirement*
+  **Note for the Peer Assessment's: Step 3 covers the second project requirement**
 
 4. The script will then create and save an output data frame with a .txt extension, to avoid having to repeat the procedure every time we need the specific data we have created up to this point.
 
 5. Finally, the script will read the relevant data required for the Coursera's .txt file submission from the Dataset #1 (directly from file), sub setting and averaging each subject & activity, and it will then save the Output to a data.frame named dataset2.txt, to fulfill the requirements set for the subsequent course required submission.
         
-*Note for the Peer Assessment's: Steps 4 & 5 jointly cover project requirement 5*
+  **Note for the Peer Assessment's: Steps 4 & 5 jointly cover project requirement 5**
 
 
 Project Objectives & Description
